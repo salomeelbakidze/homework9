@@ -1,0 +1,172 @@
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: auto;
+  
+}
+/* header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header_logo {
+  display: flex;
+  margin-top: 6px;
+  margin-left: 130px;
+}
+h2 {
+  font-family: Pridi;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27.9px;
+
+  color: #fa793c;
+}
+@media (max-width:726px) {
+    h2 {
+        font-size: 12px ;
+    }
+}
+@media (max-width:690px) {
+    h2 { 
+        font-size: 8px;
+    }
+}
+.header_ul {
+  display: flex;
+  column-gap: 32px;
+}
+.fa-user {
+  margin-right: 130px;
+}
+/* section */
+
+.sec_1 {
+  height: 550px;
+  position: relative;
+}
+.sec_cover {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.sec_2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+h3 {
+  color: #ffffff;
+  font-family: Kanit;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 75px;
+}
+@media (max-width:707px) {
+
+    h3 { 
+        font-size: 30px;
+    }
+}
+.sec_text {
+  color: #ffffff;
+  font-family: Kanit;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  padding-bottom: 186px;
+}
+
+@media (max-width:707px) {
+    .sec_text {
+        font-size: 15px;
+    }
+}
+
+.sec_3 {
+  width: 1180px;
+  height: 389px;
+
+  display: flex;
+}
+
+article {
+  margin-top: 209px;
+
+  display: inline-block;
+  flex-wrap: wrap;
+  align-content: center;
+  /* column-gap: 20px; */
+}
+
+.midarticle {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+h4 {
+  font-family: Kanit;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 45px;
+  color: #000000;
+  margin-top: 130px;
+  margin-left: 130px;
+}
+h5 {
+  font-family: Kanit;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  color: #000000;
+}
+.sectext {
+  font-family: Kanit;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #000000;
+}
+
+.sec_4 {
+  width: 1180px;
+  height: 479px;
+  margin-top: 130px;
+  margin-left: 130px;
+  display: flex;
+  display: inline-block;
+}
+h6 {
+  font-family: Kanit;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 45px;
+  color: #000000;
+}
+.secimg {
+  width: 780px;
+  height: 400px;
+}
+.secimg2 {
+  width: 380px;
+  height: 190px;
+}
+
+/* footer */
+footer {
+  background-color: #000000;
+  width: 1440px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footertext {
+  font-family: Pridi;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27.9px;
+  color: #ffffff;
+}
